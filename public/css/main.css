@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+	color: white;
+	/*font-family: 'Jura', sans-serif;*/
+	font-family: 'Didact Gothic', sans-serif;
+	/*font-weight: 500;*/
+	/*font-size: 12px;*/
+}
+.nav a {
+	font-size: 19px;
+}
+/* general */
+.btn-space {
+	border: 1px solid white;
+	color: white;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	float: right;
+}
+.block {
+	background-color: black;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	margin-bottom: 22px;
+}
+.block > p {
+	padding: 5px 10px;
+	margin: 0px;
+}
+.block > hr {
+	margin: 0px;
+}
+.heading {
+	/*margin-bottom: 22px;*/
+	padding-left: 10px;
+	text-transform: uppercase;	/*font-weight: 700;*/
+}
+.banner {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+#health		{ color: #00bc16; }
+#defence 	{ color: #383bff; }
+#attack 	{ color: #f40000; }
+#stamania 	{ color: #cc0099; }
+#money 		{ color: #fff200; }
+.select {
+	background-color: white;
+}
+.menu-list {
+	background-color: #000;
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+.menu-list > li {
+	padding: 6px;
+	border-bottom: 1px solid white;
+}
+.menu-list >li:hover {
+	color: black;
+	background-color: white;
+	/*border-bottom: 1px solid black;*/
+}
+/* inventory */
+.inventory-slot {
+	float: left;
+	padding: 0 10px 10px;
+}
+.inventory-slot > p {
+	margin: 0px;
+}
+.inventory-sprite {
+	width: 100%; 
+	/*height: 80px;*/
+	border: 1px solid #ccc;
+}
+.item-info {
+	display: block;
+}
+.hide-info {
+	display: none;
+}
+.stat-info{
+	float: right;
+}
+
+.create-character {
+	border: 1px solid rgb(204, 204, 204);
+	padding: 15px;
+}
+
+.panel {
+	background-color: transparent;
+}
+.dropdown-menu {
+	background-color:#222;
+}
+.dropdown-menu > li > a {
+	color: #9d9d9d;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #111;
+	color: #fff;
+}
+
+/*.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	border-top: 0;
+}*/
+.character-table {
+	/*padding: 0px;*/
+	border: 1px solid #ccc;
+	margin: 0px 0px 50px;
+}
+.character-table > div {
+	margin-bottom: 5px;
+}
+
+/* login page */
+.login {
+	margin-top: -23px;
+	height: 92vh;
+	background-image: url("../img/intro.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
